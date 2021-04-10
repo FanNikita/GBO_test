@@ -8,9 +8,11 @@
 </head>
 
 <body>
-  <header>
-    <nav>
-      
+  <header class='main-header'>
+    <nav class='main-header-nav'>
+      <a>
+        <img src='img/head-logo.png' width='347' height='47' alt='Italgas'>
+      </a>
     </nav>
   </header>
 </body>
