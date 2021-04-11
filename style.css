@@ -1,0 +1,8 @@
+.economy-decoration-icon {
+    width:60px;
+    height: 60px;
+    background-image: url(img/head-logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
