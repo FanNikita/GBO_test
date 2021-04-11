@@ -44,7 +44,27 @@
     </nav>
   </header>
     <section class='calculator'>
-      
+      <article class='calculator-block'>
+        <h3>Калькулятор</h3>
+        <form id="calc-form" action="#" method="post">
+          <label for="calc-form-fuel_type" class="visually-hidden">Вид топлива</label>
+          <select name="calc-form-fuel_type" id='calc-form-fuel_type'>
+            <option>АИ-92, 44 руб.</option>
+            <option>АИ-95, 50 руб.</option>
+            <option>АИ-98, 100 руб.</option>
+            <option>ДТ, 50 руб.</option>
+          </select>
+          <label for="calc-form-fuel_consumption" class="visually-hidden">Расход, л/100км</label>
+          <input type="number" name="calc-form-fuel_consumption" id="calc-form-fuel_consumption" placeholder="33">
+          <label for="calc-form-kilometrage" class="visually-hidden">Пробег, км</label>
+          <input type="number" name="calc-form-kilometrage" id="calc-form-kilometrage" placeholder="Пробег, км">
+          <label for="calc-form-reconstruction" class="visually-hidden">Переборудовать</label>
+          <select name="calc-form-reconstruction" id='calc-form-reconstruction'>
+            <option>Пропан, 22 руб.</option>
+            <option>Бутан, 30 руб.</option>
+          </select>
+          <button type="submit">Начать экономить</button>
+      </article>
     </section>
 </body>
 
