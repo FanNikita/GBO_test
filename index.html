@@ -2,195 +2,259 @@
 <html lang="ru">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <Link rel='stylesheet' href='style.css'></Link>
-  <title>Установка ГБО</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <Link rel='stylesheet' href='style.css'></Link>
+    <title>Установка ГБО</title>
 </head>
 
 <body>
-  <header class='main-header'>
-    <nav class='main-header-nav'>
-      <a href='#' target="_blank">
-        <img src='img/head-logo.png' width='228' height='63' alt='Italgas'>
-      </a>
-      <ul class='site-navigation'>
-        <li class='site-navigation-item'>
-          <a href='#'>Направления</a>
-        </li>
-        <li class='site-navigation-item'>
-          <a href='#'>Компания</a>
-        </li>
-        <li class='site-navigation-item'>
-          <a href='#'>ГМТ и ГБО</a>
-        </li>
-        <li class='site-navigation-item'>
-          <a href='#'>Пресс-центр</a>
-        </li>
-        <li class='site-navigation-item'>
-          <a href='#'>Документация</a>
-        </li>
-      </ul>
-      <a href='tel:+78003332525'>88003332525</a>
-      <ul class='social-btn'>
-        <li>
-          <a class='telegram-link' href='#'>TG</a>
-        </li>
-        <li>
-          <a class='whatsapp-link' href='#'>WP</a>
-        </li>
-      </ul>
-      <a class='contact-link' href='#'>Контакты</a>
-      <a class='lang-link' href='#'>EN</a>
-    </nav>
-  </header>
+    <header class='main-header'>
+        <nav class='main-header-nav'>
+            <a href='#' target="_blank">
+                <img src='img/head-logo.png' width='228' height='63' alt='Italgas'>
+            </a>
+            <ul class='site-navigation'>
+                <li class='site-navigation-item'>
+                    <a href='#'>Направления</a>
+                </li>
+                <li class='site-navigation-item'>
+                    <a href='#'>Компания</a>
+                </li>
+                <li class='site-navigation-item'>
+                    <a href='#'>ГМТ и ГБО</a>
+                </li>
+                <li class='site-navigation-item'>
+                    <a href='#'>Пресс-центр</a>
+                </li>
+                <li class='site-navigation-item'>
+                    <a href='#'>Документация</a>
+                </li>
+            </ul>
+            <a href='tel:+78003332525'>88003332525</a>
+            <ul class='social-btn'>
+                <li>
+                    <a class='telegram-link' href='#'>TG</a>
+                </li>
+                <li>
+                    <a class='whatsapp-link' href='#'>WP</a>
+                </li>
+            </ul>
+            <a class='contact-link' href='#'>Контакты</a>
+            <a class='lang-link' href='#'>EN</a>
+        </nav>
+    </header>
     <section class='calculator'>
-      <article class='calculator-block'>
-        <h3>Калькулятор</h3>
-        <form id="calc-form" action="#" method="post">
-          <label for="calc-form-fuel_type" class="visually-hidden">Вид топлива</label>
-          <select name="calc-form-fuel_type" id='calc-form-fuel_type'>
+        <article class='calculator-block'>
+            <h3>Калькулятор</h3>
+            <form id="calc-form" action="#" method="post">
+                <label for="calc-form-fuel_type" class="visually-hidden">Вид топлива</label>
+                <select name="calc-form-fuel_type" id='calc-form-fuel_type'>
             <option>АИ-92, 44 руб.</option>
             <option>АИ-95, 50 руб.</option>
             <option>АИ-98, 100 руб.</option>
             <option>ДТ, 50 руб.</option>
           </select>
-          <label for="calc-form-fuel_consumption" class="visually-hidden">Расход, л/100км</label>
-          <input type="number" name="calc-form-fuel_consumption" id="calc-form-fuel_consumption" placeholder="33">
-          <label for="calc-form-kilometrage" class="visually-hidden">Пробег, км</label>
-          <input type="number" name="calc-form-kilometrage" id="calc-form-kilometrage" placeholder="Пробег, км">
-          <label for="calc-form-reconstruction" class="visually-hidden">Переборудовать</label>
-          <select name="calc-form-reconstruction" id='calc-form-reconstruction'>
+                <label for="calc-form-fuel_consumption" class="visually-hidden">Расход, л/100км</label>
+                <input type="number" name="calc-form-fuel_consumption" id="calc-form-fuel_consumption" placeholder="33">
+                <label for="calc-form-kilometrage" class="visually-hidden">Пробег, км</label>
+                <input type="number" name="calc-form-kilometrage" id="calc-form-kilometrage" placeholder="Пробег, км">
+                <label for="calc-form-reconstruction" class="visually-hidden">Переборудовать</label>
+                <select name="calc-form-reconstruction" id='calc-form-reconstruction'>
             <option>Пропан, 22 руб.</option>
             <option>Бутан, 30 руб.</option>
           </select>
-          <div class='economy-decoration-icon'></div>
-          <p>Ваша экономия за год</p>
-          <span>717750</span>
-          <span>руб.</span>
-          <button type="submit">Начать экономить</button>
-          </form>
-      </article>
+                <div class='economy-decoration-icon'></div>
+                <p>Ваша экономия за год</p>
+                <span>717750</span>
+                <span>руб.</span>
+                <button type="submit">Начать экономить</button>
+            </form>
+        </article>
     </section>
     <section class='about-block'>
-      <p class='about-block-paragraph'>Сегодня группа компаний ИТАЛГАЗ работает в нескольких направлениях: <span class='blue-text'>Поставка ГБО, Инжиниринг решений для коммерческого транспорта, Переоборудование транспорта, Консалтинг и обучение.</span></p>
-      <p class='about-block-small-text'>Постоянное изучение и применение передовых технологий, а также значительный опыт работы с OEM позволяют нам предлагать эффективные решения для автопроизводителей. Возможно вы удивитесь, но в России производят несколько десятков моделей транспорта, использующего газомоторное топливо.</p>
+        <p class='about-block-paragraph'>Сегодня группа компаний ИТАЛГАЗ работает в нескольких направлениях: <span class='blue-text'>Поставка ГБО, Инжиниринг решений для коммерческого транспорта, Переоборудование транспорта, Консалтинг и обучение.</span></p>
+        <p class='about-block-small-text'>Постоянное изучение и применение передовых технологий, а также значительный опыт работы с OEM позволяют нам предлагать эффективные решения для автопроизводителей. Возможно вы удивитесь, но в России производят несколько десятков моделей транспорта,
+            использующего газомоторное топливо.</p>
     </section>
     <section class='equipment-delivery-block'>
         <div class='equipment-delivery-decoration'>
-          <div class='equipment-delivery-decoration-small'></div>
+            <div class='equipment-delivery-decoration-small'></div>
         </div>
         <aricle class='equipment-delivery-cont'>
-          <h3>Поставка ГБО</h3>
-          <p class='equipment-delivery-cont-text'>Сегодня группа компаний ИТАЛГАЗ работает в нескольких направлениях: Поставка ГБО, Инжиниринг решений для коммерческого транспорта, Переоборудование транспорта, Консалтинг и обучение.</p>
-          <ul class='equipment-delivery-cont-link-block'>
-            <li>
-              <a href="#">Бренды ГБО</a>
-            </li>
-            <li>
-              <a href="#">Купить ГБО</a>
-            </li>
-            <li>
-              <a href="#">Дилерская сеть</a>
-            </li>
-            <li>
-              <a href="#">Гарантия</a>
-            </li>
-          </ul>
+            <h3>Поставка ГБО</h3>
+            <p class='equipment-delivery-cont-text'>Сегодня группа компаний ИТАЛГАЗ работает в нескольких направлениях: Поставка ГБО, Инжиниринг решений для коммерческого транспорта, Переоборудование транспорта, Консалтинг и обучение.</p>
+            <ul class='equipment-delivery-cont-link-block'>
+                <li>
+                    <a href="#">Бренды ГБО</a>
+                </li>
+                <li>
+                    <a href="#">Купить ГБО</a>
+                </li>
+                <li>
+                    <a href="#">Дилерская сеть</a>
+                </li>
+                <li>
+                    <a href="#">Гарантия</a>
+                </li>
+            </ul>
         </aricle>
     </section>
     <section class='service-block'>
-      <aricle class='service-block-cont'>
-        <h3>Установка и обслуживание</h3>
-        <p class='service-block-cont-text'>Мы вкладываем свои знания и опыт в разработку новых инженерных решений, обучаем партнеров, предлагаем комплексные решения для потребителей, включающие кредитование, лизинг, субсидирование.</p>
-        <ul class='service-block-cont-link-block'>
-          <li>
-            <a href="#">Установка ГБО</a>
-          </li>
-          <li>
-            <a href="#">Фото работ</a>
-          </li>
-          <li>
-            <a href="#">Поддержка и обслуживание</a>
-          </li>
-          <li>
-            <a href="#">Дилерская сеть</a>
-          </li>
-        </ul>
-      </aricle>
-      <div class='service-block-decoration'>
-        <div class='service-block-decoration-small'></div>
-      </div>
+        <aricle class='service-block-cont'>
+            <h3>Установка и обслуживание</h3>
+            <p class='service-block-cont-text'>Мы вкладываем свои знания и опыт в разработку новых инженерных решений, обучаем партнеров, предлагаем комплексные решения для потребителей, включающие кредитование, лизинг, субсидирование.</p>
+            <ul class='service-block-cont-link-block'>
+                <li>
+                    <a href="#">Установка ГБО</a>
+                </li>
+                <li>
+                    <a href="#">Фото работ</a>
+                </li>
+                <li>
+                    <a href="#">Поддержка и обслуживание</a>
+                </li>
+                <li>
+                    <a href="#">Дилерская сеть</a>
+                </li>
+            </ul>
+        </aricle>
+        <div class='service-block-decoration'>
+            <div class='service-block-decoration-small'></div>
+        </div>
     </section>
     <section class='engineering-block'>
-      <div class='engineering-decoration'>
-        <div class='engineering-decoration-small'></div>
-      </div>
-      <aricle class='engineering-cont'>
-        <h3>Инжиниринг</h3>
-        <p class='engineering-cont-text'>Сегодня группа компаний ИТАЛГАЗ работает в нескольких направлениях: Поставка ГБО, Инжиниринг решений для коммерческого транспорта, Переоборудование транспорта, Консалтинг и обучение.</p>
-        <ul class='engineering-cont-link-block'>
-          <li>
-            <a href="#">Реализованные проекты</a>
-          </li>
-          <li>
-            <a href="#">Конструкторское бюро</a>
-          </li>
-          <li>
-            <a href="#">Готовые решения</a>
-          </li>
-          <li>
-            <a href="#">Дилерская сеть</a>
-          </li>
-        </ul>
-      </aricle>
-  </section>   
-  <section class='consulting-block'>
-    <aricle class='consulting-block-cont'>
-      <h3>Консалтинг</h3>
-      <p class='consulting-block-cont-text'>Мы вкладываем свои знания и опыт в разработку новых инженерных решений, обучаем партнеров, предлагаем комплексные решения для потребителей, включающие кредитование, лизинг, субсидирование.</p>
-      <ul class='consulting-block-cont-link-block'>
-        <li>
-          <a href="#">Обучение/Календарь</a>
-        </li>
-        <li>
-          <a href="#">Финансовые услуги</a>
-        </li>
-        <li>
-          <a href="#">Регистрация ГБО</a>
-        </li>
-        <li>
-          <a href="#">Субсидии</a>
-        </li>
-      </ul>
-    </aricle>
-    <div class='consulting-block-decoration'>
-      <div class='consulting-block-decoration-small'></div>
-    </div>
-  </section> 
-  <section class='map-block'>
-    <div class='map-block-head'>
-      <h3>Дилерская сеть</h3>
-      <form id="map-form" action="#" method="post">
-        <select name="map-form-sity" id='map-form-sity' placeholder="Выберите город">
+        <div class='engineering-decoration'>
+            <div class='engineering-decoration-small'></div>
+        </div>
+        <aricle class='engineering-cont'>
+            <h3>Инжиниринг</h3>
+            <p class='engineering-cont-text'>Сегодня группа компаний ИТАЛГАЗ работает в нескольких направлениях: Поставка ГБО, Инжиниринг решений для коммерческого транспорта, Переоборудование транспорта, Консалтинг и обучение.</p>
+            <ul class='engineering-cont-link-block'>
+                <li>
+                    <a href="#">Реализованные проекты</a>
+                </li>
+                <li>
+                    <a href="#">Конструкторское бюро</a>
+                </li>
+                <li>
+                    <a href="#">Готовые решения</a>
+                </li>
+                <li>
+                    <a href="#">Дилерская сеть</a>
+                </li>
+            </ul>
+        </aricle>
+    </section>
+    <section class='consulting-block'>
+        <aricle class='consulting-block-cont'>
+            <h3>Консалтинг</h3>
+            <p class='consulting-block-cont-text'>Мы вкладываем свои знания и опыт в разработку новых инженерных решений, обучаем партнеров, предлагаем комплексные решения для потребителей, включающие кредитование, лизинг, субсидирование.</p>
+            <ul class='consulting-block-cont-link-block'>
+                <li>
+                    <a href="#">Обучение/Календарь</a>
+                </li>
+                <li>
+                    <a href="#">Финансовые услуги</a>
+                </li>
+                <li>
+                    <a href="#">Регистрация ГБО</a>
+                </li>
+                <li>
+                    <a href="#">Субсидии</a>
+                </li>
+            </ul>
+        </aricle>
+        <div class='consulting-block-decoration'>
+            <div class='consulting-block-decoration-small'></div>
+        </div>
+    </section>
+    <section class='map-block'>
+        <div class='map-block-head'>
+            <h3>Дилерская сеть</h3>
+            <form id="map-form" action="#" method="post">
+                <select name="map-form-sity" id='map-form-sity' placeholder="Выберите город">
           <option>Выберите город</option>
           <option>Москва</option>
           <option>Питер</option>
           <option>Челябинск</option>
           <option>Анапа</option>
         </select>
-        <input type="checkbox" name="car-type-cargo" id="car-type-cargo">
-        <label for="car-type-cargo" class="visually-hidden">Грузовой автомобиль</label>
-        <input type="checkbox" name="car-type-passenger-сar" id="car-type-passenger-сar" checked>
-        <label for="car-type-passenger-сar" class="visually-hidden">Легковой автомобиль</label>
-        <input type="checkbox" name="equipment sale" id="equipment sale">
-        <label for="equipment sale" class="visually-hidden">Продажа оборудования</label>
-      </form>
-    </div>
-    <div>
-      <iframe src="https://www.google.com/maps/d/embed?mid=1Z8zMq6icvJe1LtqjdL3xMtYlSZ-_nKVX" width="1000" height="480"></iframe>
-    </div>
-  </section>
+                <input type="checkbox" name="car-type-cargo" id="car-type-cargo">
+                <label for="car-type-cargo" class="visually-hidden">Грузовой автомобиль</label>
+                <input type="checkbox" name="car-type-passenger-сar" id="car-type-passenger-сar" checked>
+                <label for="car-type-passenger-сar" class="visually-hidden">Легковой автомобиль</label>
+                <input type="checkbox" name="equipment sale" id="equipment sale">
+                <label for="equipment sale" class="visually-hidden">Продажа оборудования</label>
+            </form>
+        </div>
+        <div>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1Z8zMq6icvJe1LtqjdL3xMtYlSZ-_nKVX" width="1000" height="480"></iframe>
+        </div>
+    </section>
+    <section clas='news'>
+        <h2>Пресс-центр</h2>
+        <a href="#">Перейти в раздел</a>
+        <ul>
+            <li>
+                <article>
+                    <div class="news-cart-img"></div>
+                    <time datetime="2021-01-29">29 января 2021</time>
+                    <span>Проекты</span>
+                    <p>Сегодня группа компаний ИТАЛГАЗ работает в нескольких направлениях</p>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <div class="news-cart-img"></div>
+                    <time datetime="2021-02-03">3 февраля 2021</time>
+                    <span>Новости</span>
+                    <p>Постоянное изучение и применение передовых технологий, а также значительный опыт работы</p>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <div class="news-cart-img"></div>
+                    <time datetime="2021-01-29">29 января 2021</time>
+                    <span>Новости</span>
+                    <p>Сегодня группа компаний ИТАЛГАЗ работает в нескольких направлениях</p>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <div class="news-cart-img"></div>
+                    <time datetime="2021-02-03">3 февраля 2021</time>
+                    <span>Новости</span>
+                    <p>Постоянное изучение и применение передовых технологий, а также значительный опыт работы</p>
+                </article>
+            </li>
+        </ul>
+    </section>
+    <section class="order-a-service">
+        <article>
+            <h3>Звонок менеджера</h3>
+            <p>Постоянное изучение и применение передовых технологий</p>
+            <div class='order_a_service-decoration-img'></div>
+        </article>
+        <article>
+            <h3>Запись на установку</h3>
+            <p>Сегодня группа компаний ИТАЛГАЗ работает в нескольких направлениях</p>
+            <div class='order_a_service-decoration-img'></div>
+        </article>
+        <article>
+            <h3>Звонок менеджера</h3>
+            <p>Постоянное изучение и применение передовых технологий</p>
+            <div class='order_a_service-decoration-img'></div>
+        </article>
+    </section>
+    <footer>
+        <a class="footer-logo" href='#' target="_blank">
+            <img src='img/head-logo.png' width='228' height='63' alt='Italgas'>
+        </a>
+        <address>Московская область, Долгопрудный, Лихачевский пр., д. 33, корп. 1</address>
+        <a href="mailto:hello@italgas.ru">hello@italgas.ru</a>
+
+    </footer>
 </body>
 
 </html>
