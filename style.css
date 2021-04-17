@@ -6,3 +6,36 @@
     background-size: contain;
     background-position: center;
 }
+li{
+    list-style: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.main-header{
+    background-color: orangered;
+    
+}
+.main-header-nav{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orchid;
+    width: 1500px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.site-navigation{
+    display: flex;
+}
+.social-btn{
+    display: flex;
+}
+.site-navigation-item{
+    background-color: palegreen;
+    margin: 30px;
+}
