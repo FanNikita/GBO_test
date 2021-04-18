@@ -55,6 +55,7 @@ ul{
 .head-block-text{
     background: linear-gradient(45deg, #003BAF, #0075FF, #013CB0);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 70px;
     text-transform: uppercase;
