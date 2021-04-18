@@ -53,15 +53,17 @@
     </section>
     <section class='calculator'>
         <article class='calculator-block'>
-            <h3>Калькулятор</h3>
-            <form id="calc-form" action="#" method="post">
-                <label for="calc-form-fuel_type" class="visually-hidden">Вид топлива</label>
-                <select name="calc-form-fuel_type" id='calc-form-fuel_type'>
-            <option>АИ-92, 44 руб.</option>
-            <option>АИ-95, 50 руб.</option>
-            <option>АИ-98, 100 руб.</option>
-            <option>ДТ, 50 руб.</option>
-          </select>
+            <h3 class='calc-head'>Калькулятор</h3>
+            <form class="calc-form" id="calc-form" action="#" method="post">
+                <div class="form-border-box">
+                    <label for="calc-form-fuel_type" class="visually-hidden">Вид топлива</label>
+                    <select name="calc-form-fuel_type" id='calc-form-fuel_type'>
+                        <option>АИ-92, 44 руб.</option>
+                        <option>АИ-95, 50 руб.</option>
+                        <option>АИ-98, 100 руб.</option>
+                        <option>ДТ, 50 руб.</option>
+                    </select>
+                </div>
                 <label for="calc-form-fuel_consumption" class="visually-hidden">Расход, л/100км</label>
                 <input type="number" name="calc-form-fuel_consumption" id="calc-form-fuel_consumption" placeholder="33">
                 <label for="calc-form-kilometrage" class="visually-hidden">Пробег, км</label>
