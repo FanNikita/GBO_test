@@ -90,12 +90,10 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: flex-start; 
-
     width: 220px;
     height: 55px;
     border: 1px solid #C4C4C4;
     border-radius: 8px;
-
 }
     
     
